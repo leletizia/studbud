@@ -1,4 +1,4 @@
-4770
+4771
 111C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\caniuse-lite\data\features\cookie-store-api.js132968790594411244 0
 99C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\svgo\plugins\convertShapeToPath.js132968790588302742 0
 79C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\etag\README.md132968790577827324 0
@@ -9,7 +9,7 @@
 84C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\color-name\index.js132968790577912430 0
 64C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\package.json132968827745298141 0
 99C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\type-fest\ts41\delimiter-case.d.ts132968790586471922 0
-56C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\dist132968827839402535 1
+56C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\dist132980872118860359 1
 125C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\posthtml\node_modules\posthtml-parser\dist\chunk.2UQLUWPH.js132968790578307141 0
 92C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\@parcel\transformer-css\src132968790579243317 1
 62C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\.gitignore132962792036687884 0
@@ -26,13 +26,13 @@
 118C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\@parcel\transformer-postcss\lib\PostCSSTransformer.js132968790585044048 0
 87C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\htmlnano\.eslintignore132968790576637209 0
 101C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\@swc\helpers\src\_read_only_error.js132968790594957589 0
-69C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\package-lock.json132968827745278181 0
+69C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\package-lock.json132980147613173332 0
 64C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules132968827744743652 1
 95C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\source-map-support\register.js132968790579593153 0
 90C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\yaml\browser\parse-cst.js132968790588323244 0
 81C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\lmdb\src\dbi.cpp132968790593428848 0
-68C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\public\script.js132958557201379151 0
-58C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\public132968788422085608 1
+68C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\public\script.js132980122273487280 0
+58C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\public132980878485889503 1
 95C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\@babel\code-frame\package.json132968790580254079 0
 88C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\posthtml-render\license132968790576534930 0
 86C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\content-type\index.js132968790579997459 0
@@ -68,6 +68,11 @@
 61C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\README.md132968787580981636 0
 117C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\@babel\highlight\node_modules\color-convert\route.js132968790583742969 0
 82C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\yaml\browser\dist132968790591413835 1
+99C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\@parcel\runtime-service-worker\src132968790579233342 1
+72C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\public\homepage.html132980878485889503 0
+99C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\source-map-js\lib\binary-search.js132968790581454350 0
+93C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\posthtml\types\posthtml.d.ts132968790582783901 0
+78C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\lodash.sortby132968790579563040 1
 115C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\caniuse-lite\data\features\css-overflow-overlay.js132968790597374425 0
 104C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\@swc\helpers\lib\_is_native_function.js132968790591229802 0
 81C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\htmlnano\test.js132968790589647074 0
@@ -77,7 +82,7 @@
 69C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\sass132968790592101249 1
 126C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\@parcel\transformer-react-refresh-wrap\src\helpers\helpers.js132968790580048509 0
 80C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\qs\lib\index.js132968790581081125 0
-69C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\public\index.html132968814645588732 0
+69C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\public\index.html132980380992683845 0
 100C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\caniuse-lite\data\features\touch.js132968790615112542 0
 99C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\@parcel\logger\test\Logger.test.js132968790580718299 0
 87C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\json5\lib\stringify.js132968790585676598 0
@@ -97,7 +102,7 @@
 81C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\cookie-signature132968790580628995 1
 84C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\braces\lib\utils.js132968790586226954 0
 120C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\sample-bdb.txt132968790609973329 0
-68C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\public\style.css132958557127596407 0
+68C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\public\style.css132980158071815427 0
 96C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\caniuse-lite\data\regions\HN.js132968790606083906 0
 95C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\css-what\lib\commonjs\parse.js132968790581761627 0
 100C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\mdn-data\css\properties.schema.json132968790588158856 0
@@ -467,16 +472,6 @@
 105C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\type-fest\source\conditional-except.d.ts132968790585452019 0
 87C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\color-convert\route.js132968790583606494 0
 69C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\lmdb132968790609912727 1
-99C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\source-map-js\lib\binary-search.js132968790581454350 0
-93C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\posthtml\types\posthtml.d.ts132968790582783901 0
-78C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\lodash.sortby132968790579563040 1
-84C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\raw-body\index.d.ts132968790583571238 0
-106C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\css-tree\lib\syntax\node\ClassSelector.js132968790587257984 0
-100C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\@parcel\utils\src\getCertificate.js132968790587978403 0
-98C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\@parcel\reporter-cli\src\emoji.js132968790586166108 0
-91C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\debug\src\inspector-log.js132968790587238039 0
-73C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\svgo\lib132968790593377590 1
-100C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\css-tree\lib\common\adopt-buffer.js132968790578347900 0
 114C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest6.c132968790593062073 0
 84C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\encodeurl\README.md132968790577847268 0
 73C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\mdn-data132968790589377802 1
@@ -1393,6 +1388,13 @@
 74C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\svgo\dist132968790592768465 1
 103C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\caniuse-lite\data\features\promises.js132968790612141653 0
 89C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\buffer-from\package.json132968790578940013 0
+84C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\raw-body\index.d.ts132968790583571238 0
+106C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\css-tree\lib\syntax\node\ClassSelector.js132968790587257984 0
+100C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\@parcel\utils\src\getCertificate.js132968790587978403 0
+98C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\@parcel\reporter-cli\src\emoji.js132968790586166108 0
+91C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\debug\src\inspector-log.js132968790587238039 0
+73C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\svgo\lib132968790593377590 1
+100C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\css-tree\lib\common\adopt-buffer.js132968790578347900 0
 77C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\svgo\LICENSE132968790576504562 0
 114C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\lmdb\prebuilds\linux-arm64\node.abi102.glibc.node132968790599270505 0
 92C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\object-inspect\package.json132968790589295691 0
@@ -1603,7 +1605,6 @@
 88C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\source-map\package.json132968790576504562 0
 93C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\css-tree\dist\csstree.min.js132968790590438801 0
 85C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\source-map\README.md132968790578084253 0
-86C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\negotiator\HISTORY.md132968790584612840 0
 96C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\caniuse-lite\data\regions\TZ.js132968790615277191 0
 99C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\caniuse-lite\data\features\avif.js132968790591043721 0
 91C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\source-map\source-map.d.ts132968790587504816 0
@@ -2055,6 +2056,7 @@
 78C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\debug\node.js132968790582569361 0
 98C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\css-tree\lib\syntax\node\Value.js132968790594916076 0
 104C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\caniuse-lite\data\features\dommatrix.js132968790601176593 0
+86C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\negotiator\HISTORY.md132968790584612840 0
 84C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\negotiator\index.js132968790580130191 0
 84C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\express\lib\view.js132968790586922444 0
 79C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\negotiator\lib132968790582508112 1
@@ -4248,7 +4250,6 @@
 101C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\@parcel\source-map\dist\wasm.js.flow132968790583950729 0
 99C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\@parcel\runtime-service-worker\lib132968790577983151 1
 108C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\@parcel\runtime-service-worker\package.json132968790580391705 0
-99C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\@parcel\runtime-service-worker\src132968790579233342 1
 123C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\@parcel\runtime-service-worker\lib\ServiceWorkerRuntime.js132968790578216465 0
 102C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\@parcel\runtime-react-refresh\LICENSE132968790576854994 0
 98C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\@parcel\reporter-cli\src\utils.js132968790586831541 0
@@ -4766,6 +4767,6 @@
 78C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\.bin\svgo.cmd132968790617200223 0
 78C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\.bin\svgo.ps1132968790617196771 0
 80C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\node_modules\.bin\terser.ps1132968790617200223 0
-67C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\dist\index.html132968827839369259 0
+67C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\dist\index.html132980872118830245 0
 75C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\dist\public.0ba7c674.js132968797015841167 0
 79C:\Users\letiz\OneDrive\Desktop\new-studbud\studbud\dist\public.0ba7c674.js.map132968797015856230 0
