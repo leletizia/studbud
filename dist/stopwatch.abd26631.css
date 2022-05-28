@@ -1,0 +1,64 @@
+:root {
+  --primary: crimson;
+  --dark: #1f2937;
+  --darker: #111827;
+  --light: #f3f4f6;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Fira sans, sans-serif;
+}
+
+body {
+  background: var(--dark);
+  color: var(--light);
+}
+
+.watch {
+  text-align: center;
+  background-color: var(--darker);
+  width: 100%;
+  max-width: 360px;
+  border-radius: 1rem;
+  margin: 4rem auto;
+  padding: 1rem 2rem;
+}
+
+.time {
+  margin-bottom: 1rem;
+  font-size: 5rem;
+  font-weight: 300;
+}
+
+.controls {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.controls button {
+  appearance: none;
+  cursor: pointer;
+  color: var(--light);
+  background: none;
+  background-color: var(--primary);
+  border: none;
+  border-radius: .5rem;
+  outline: none;
+  margin: 0 .5rem;
+  padding: .5rem 1rem;
+  font-size: 1.125rem;
+  transition: all .4s;
+}
+
+button:hover {
+  opacity: .7;
+}
+
+button:active {
+  background-color: var(--dark);
+}
+
+/*# sourceMappingURL=stopwatch.abd26631.css.map */
