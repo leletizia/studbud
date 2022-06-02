@@ -50,7 +50,7 @@ body{
     height: 180px;
     border-radius: 50%;
     background: #000;
-    background-image: url('images/cover\1.jpg');
+    background-image: url('images/Connect and Company LOGO.png');
     background-size: cover;
     box-shadow: 0 0 0 10px rgba(255, 255, 255, 0, 0.08);  
     animation: rotate 20s linear infinite;
