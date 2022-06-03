@@ -5,13 +5,16 @@
 body {
     margin: 0;
     font-family: 'Quicksand', sans-serif;    
-    position: relative;
+    /* position: relative; */
 
   }
   
   .topnav {
     overflow: hidden;
     background-color: #F6F2DF;
+    position: fixed;
+    top: 0;
+
   }
   
   .topnav a {
@@ -24,16 +27,12 @@ body {
     font-size: 17px;
   }
   
+  /* changes colour when mouse hovers */
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #EAE2B7;
     color: #003049;
   }
-  
-  .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
-  
+    
   .topnav .icon {
     display: none;
   }
@@ -82,6 +81,7 @@ body {
   display: flex;
 }
 
+/* adjusts colour and size of the main part of the kanban */
 .status {
   width: 25%;
   background-color: #F6F2DF;
