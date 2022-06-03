@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 
 /* navbar start */
 
@@ -11,7 +10,7 @@ body {
   margin: 0px;
   padding: 0px;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Quicksand', Helvetica, sans-serif;
   position: relative;
 }
 
@@ -83,9 +82,9 @@ body {
 
 body {
   padding: 35px;
-  background-color: #EAE2B7;
-  color: #eee;
-  font-family: "Montserrat", sans-serif;
+  background-color: #F6F2DF;
+  color: #003049;
+  font-family: 'Quicksand', sans-serif;
 }
 #wrapper-main {
   max-width: 760px;
@@ -145,7 +144,7 @@ form button {
   background: transparent;
   width: 100%;
   margin: 5px 0;
-  color: #eee;
+  color: #003049;
   border: 1px solid #fac7c72a;
 }
 form p {
@@ -155,7 +154,7 @@ form p {
   text-align: center;
 }
 .start, .pause {
-  color: #eee;
+  color: #003049;
 
   position: absolute;
   height: 100%;

@@ -1,6 +1,7 @@
+@import "https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap";
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Quicksand, sans-serif;
   position: absolute;
 }
 
@@ -81,8 +82,8 @@ body {
 }
 
 .wrapper .content {
-  color: #fff;
-  background: linear-gradient(145deg, red, green);
+  color: #003049;
+  background: #eae2b7;
   border-radius: 10px;
   padding: 20px 20px 50px;
   box-shadow: 0 5px 30px #000000a8;

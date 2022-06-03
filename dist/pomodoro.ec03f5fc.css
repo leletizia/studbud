@@ -1,5 +1,4 @@
-@import "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,900&display=swap";
-@import "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap";
 .picture_panel h1, .topbar ul {
   margin-top: 0;
 }
@@ -7,7 +6,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Quicksand, Helvetica, sans-serif;
   position: relative;
 }
 
@@ -80,10 +79,10 @@ body {
 }
 
 body {
-  color: #eee;
-  background-color: #eae2b7;
+  color: #003049;
+  background-color: #f6f2df;
   padding: 35px;
-  font-family: Montserrat, sans-serif;
+  font-family: Quicksand, sans-serif;
 }
 
 #wrapper-main {
@@ -148,7 +147,7 @@ form {
 
 form button {
   width: 100%;
-  color: #eee;
+  color: #003049;
   background: none;
   border: 1px solid #fac7c72a;
   margin: 5px 0;
@@ -162,7 +161,7 @@ form p {
 }
 
 .start, .pause {
-  color: #eee;
+  color: #003049;
   height: 100%;
   position: absolute;
 }

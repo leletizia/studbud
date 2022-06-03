@@ -1,6 +1,7 @@
+@import "https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap";
 body {
   margin: 0;
-  font-family: Quicksand, Helvetica, sans-serif;
+  font-family: Quicksand, sans-serif;
   position: relative;
 }
 
@@ -64,8 +65,8 @@ body {
 
 :root {
   --primary: #f77f00;
-  --dark: #eae2b7;
-  --darker: #f6f2df;
+  --dark: #f6f2df;
+  --darker: #eae2b7;
   --light: #003049;
 }
 

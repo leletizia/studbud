@@ -1,9 +1,11 @@
-/* navbar start */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 
+
+/* navbar start */
 
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Quicksand', sans-serif;    
     position: absolute;
   }
   
@@ -76,8 +78,8 @@ body {
     width: 450px;
 }
 .wrapper .content {
-    background: linear-gradient(145deg, red, green);
-    color: #fff;
+    background: #EAE2B7;
+    color: #003049;
     padding: 20px 20px 50px 20px;
     border-radius: 10px;
     box-shadow: 0px 5px 30px rgba(0,0,0,0.66);
