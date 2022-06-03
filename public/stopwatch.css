@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+
 /* navbar start */
 
 body {
   margin: 0;
-  font-family: 'Quicksand', Helvetica, sans-serif;
+  font-family: 'Quicksand', sans-serif;
   position: relative;
 }
 
@@ -62,8 +65,8 @@ body {
 
 :root {
     --primary: #F77F00;
-    --dark:#EAE2B7;
-    --darker: #F6F2DF;
+    --dark:#F6F2DF;
+    --darker: #EAE2B7;
     --light: #003049;
   }
   
