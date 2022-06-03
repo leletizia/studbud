@@ -22,16 +22,19 @@ search_btn.addEventListener('click', e => {
     defination_box.innerText = "";
 });
 
+// gets words inputed from user from the Merriam-Webster Dictionary API using unique api key 
 async function dataGet(word) {
     const response = await fetch(`https://www.dictionaryapi.com/api/v3/references/learners/json/${word}?key=${apiKey}`);
     const data = await response.json();
     console.log(data);
 
+    // if users type in a word not in teh dictionary
     if (!data.length) {
         not_found.innerText = 'No result found';
         return;
     }
 
+    // finds a word similar to the letters users entered
     if (typeof data[0] === 'string') { // if result is suggestions
         let heading = document.createElement('h3');
         heading.innerText = 'Did you mean?';
@@ -55,6 +58,7 @@ async function dataGet(word) {
     }
 }
 
+// using the api key to have the sound of the word
 function soundRender(sound_name) {
     let sub_folder = sound_name.charAt(0);
     let sound_src = `https://media.merriam-webster.com/soundc11/${sub_folder}/${sound_name}.wav?key=${apiKey}`;
