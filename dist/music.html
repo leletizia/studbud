@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta httpm-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+
+    <link rel="stylesheet" href="/music.dc3f5c6a.css">
+</head>  
+<body>
+
+<!-- nav bar -->
+<div class="topnav" id="myTopnav">
+    <a class="logo" href="/index.html">
+      <img alt="stud bud logo" src="/stud.bud.1c5d539b.png" width="150" height="40">
+    <a href="/stopwatch.html">Stopwatch</a>
+    <a href="/dictionary.html">Dictionary</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </a></div>
+  
+  <div style="padding-left: 16px"> 
+  </div>
+  
+  
+    
+  
+    <script>function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") x.className += " responsive";
+    else x.className = "topnav";
+}
+
+</script>
+  <!-- Nav bar end -->
+
+    <audio src="/OSD.d06a5ac4.mp3" type="audio/mpeg"></audio>
+
+    <div class="music-player">
+        <h1 class="music-name">One Summer's Day - Lofi</h1>
+        <p class="artist-name">Samuel Kim & Mik</p>
+
+        <div class="disk"></div>
+
+        <div class="song-slider">
+            <input type="range" value="0" class="seek-bar">
+            <span class="current-time">00:00</span>
+            <span class="song-duration">00:00</span>
+        </div>
+
+        <div class="controls">
+            <button class="btn backwards-btn"><img src="/pre.b4958228.png" alt=""></button>
+            <button class="play-btn pause">
+                <span></span>
+                <span></span>
+            </button>    
+            <button class="btn forward-btn"><img src="/nxt.0a1a14b3.png" alt=""></button>
+
+        </div>
+
+    </div>
+
+    <script src="/music.dc805eb3.js"></script>
+    <script src="/music.e3ca1ee3.js"></script>
+
+</body>
+</html>

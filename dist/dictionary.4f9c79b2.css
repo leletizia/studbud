@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+}
+
+.topnav {
+  background-color: #f6f2df;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #003049;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+  text-decoration: none;
+  display: block;
+}
+
+.topnav a:hover {
+  color: #003049;
+  background-color: #ddd;
+}
+
+.topnav a.active {
+  color: #fff;
+  background-color: #04aa6d;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    text-align: left;
+    display: block;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.wrapper {
+  width: 450px;
+}
+
+.wrapper .content {
+  color: #fff;
+  background: linear-gradient(145deg, red, green);
+  border-radius: 10px;
+  padding: 20px 20px 50px;
+  box-shadow: 0 5px 30px #000000a8;
+}
+
+.content h2 {
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.content .form .input {
+  flex-direction: column;
+  display: flex;
+}
+
+.form .input input {
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 17px;
+}
+
+.form .input button {
+  width: 30%;
+  height: 30px;
+  color: #fff;
+  cursor: pointer;
+  background: #c98a8a;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: all .4s;
+}
+
+.form .input button:hover {
+  background: green;
+}
+
+.content .data-section {
+  padding-top: 10px;
+}
+
+.suggested {
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-right: 10px;
+  padding: 2px 10px;
+  display: inline-block;
+}
+
+.audio {
+  padding-top: 10px;
+}
+
+/*# sourceMappingURL=dictionary.4f9c79b2.css.map */

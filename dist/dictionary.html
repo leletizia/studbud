@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary App</title>
+    <link rel="stylesheet" href="/dictionary.4f9c79b2.css">
+</head>
+
+<body>
+
+<!-- nav bar start -->
+<header>
+<div class="topnav" id="myTopnav">
+  <a class="logo" href="/index.html">
+    <img alt="stud bud logo" src="/stud.bud.1c5d539b.png" width="150" height="40">  
+    <a href="/dictionary.html">Dictionary</a>
+    <a href="/stopwatch.html">Stopwatch</a>
+    <!-- <a href="music.html">Music Player</a> -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </a></div>
+  
+  <div style="padding-left: 16px">
+   
+  </div>
+  
+  
+    
+  
+    <script>function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") x.className += " responsive";
+    else x.className = "topnav";
+}
+
+</script>
+</header>
+
+<!-- nav bar end -->
+
+    <div class="wrapper">
+        <div class="content">
+            <h2>English Dictionary</h2>
+            <div class="form">
+                <div class="input">
+                    <input type="text" id="input" placeholder="Type a word">
+                    <button id="search_btn">Search</button>
+                </div>
+            </div>
+
+            <div class="data-section">
+                <p class="def"></p>
+                <div class="audio"></div>
+                <div class="not_found"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/dictionary.129e2507.js"></script>
+</body>
+
+</html>

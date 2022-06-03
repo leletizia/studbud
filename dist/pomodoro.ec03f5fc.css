@@ -1,0 +1,301 @@
+@import "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,900&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap";
+.picture_panel h1, .topbar ul {
+  margin-top: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+.topnav {
+  background-color: #f6f2df;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #003049;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+  text-decoration: none;
+  display: block;
+}
+
+.topnav a:hover {
+  color: #003049;
+  background-color: #ddd;
+}
+
+.topnav a.active {
+  color: #fff;
+  background-color: #04aa6d;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    text-align: left;
+    display: block;
+  }
+}
+
+:root {
+  --clock-element-width-height: 240px;
+}
+
+*, :before, :after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #eee;
+  background-color: #eae2b7;
+  padding: 35px;
+  font-family: Montserrat, sans-serif;
+}
+
+#wrapper-main {
+  max-width: 760px;
+  background-color: #eae2b7;
+  border-radius: 10px;
+  margin: 20px auto 50px;
+  padding: 45px 60px;
+  box-shadow: 0 4px 8px #00001d0d;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 0 35px;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+input {
+  color: #eee;
+  background: #0000001c;
+  border: none;
+  margin: 10px 0;
+  padding: 5px;
+  font-size: 18px;
+  transition: all .5s ease-in-out;
+}
+
+.btn-group {
+  height: 7%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+button {
+  width: 100%;
+  color: #eee;
+  background: none;
+  border: none;
+  border-radius: 4px;
+  margin: 5px;
+  padding: 10px 16px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 21px;
+  transition: all .1s ease-in-out;
+}
+
+label {
+  font-size: 12px;
+}
+
+form {
+  max-width: 370px;
+  flex-direction: column;
+  margin: 35px auto 0;
+  padding: 0;
+  display: flex;
+}
+
+form button {
+  width: 100%;
+  color: #eee;
+  background: none;
+  border: 1px solid #fac7c72a;
+  margin: 5px 0;
+}
+
+form p {
+  color: #ffffff73;
+  text-align: center;
+  margin: 7px 0 0;
+  font-size: 14px;
+}
+
+.start, .pause {
+  color: #eee;
+  height: 100%;
+  position: absolute;
+}
+
+.start {
+  z-index: 1;
+}
+
+button i {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  position: relative;
+  top: 1px;
+}
+
+.reset {
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  position: absolute;
+  bottom: 55px;
+  transform: scale(0);
+}
+
+.pause {
+  z-index: 0;
+  transform: scale(0);
+}
+
+.clock {
+  height: var(--clock-element-width-height);
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  font-size: 36px;
+  font-weight: bold;
+  display: flex;
+  position: relative;
+}
+
+.clock svg {
+  width: var(--clock-element-width-height);
+  height: var(--clock-element-width-height);
+}
+
+.clock .session {
+  opacity: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  position: absolute;
+  top: 55px;
+}
+
+.progress-ring, .static-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.progress-ring__circle {
+  transform-origin: 50%;
+  stroke: #fd8f11;
+  z-index: 2;
+  transition: all;
+  transform: rotate(-90deg);
+}
+
+.static-ring__circle {
+  stroke: #fac7c72a;
+}
+
+footer {
+  text-align: center;
+  width: 80%;
+  color: #ffffff73;
+  margin: 0 auto;
+  font-size: 14px;
+  position: fixed;
+  bottom: 4px;
+}
+
+footer a {
+  color: #ffffff73;
+}
+
+.danger {
+  stroke: #11f31c;
+  animation: pulse .9s ease-in-out infinite;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    grid-template-areas: "head"
+                         "clock"
+                         "form"
+                         "btns";
+    display: grid;
+  }
+
+  .btn-group {
+    grid-area: btns;
+    justify-content: center;
+  }
+
+  .clock {
+    grid-area: clock;
+  }
+
+  h1 {
+    grid-area: head;
+    align-self: center;
+  }
+
+  form {
+    grid-area: form;
+    place-self: center;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  footer {
+    position: static;
+  }
+}
+
+/*# sourceMappingURL=pomodoro.ec03f5fc.css.map */

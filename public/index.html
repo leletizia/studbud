@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width">
   <title>StudBud</title>
   <link href="scss/main.scss" rel="stylesheet" type="text/css" />
-  <link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="style.css">
 
 
  
@@ -16,38 +16,73 @@
   
 <!-- nav bar -->
 <div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
-  <a href="#news">News</a>
-  <a href="stopwatch.html">Stopwatch</a>
-  <a href="#about">About</a>
+  <a class="logo" href="index.html">
+    <img alt="stud bud logo" src="stud.bud.png" width="150" height="40">  
+    <a href="stopwatch.html">Stopwatch</a>
+  <a href="pomodoro.html">Pomodoro</a>
   <!-- <a href="music.html">Music Player</a> -->
+  <a href="dictionary.html">Dictionary</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
 </div>
 
 <div style="padding-left:16px">
-  <h2>Responsive Topnav Example</h2>
-  <p>Resize the browser window to see how it works.</p>
 </div>
 
 
-  </script>
-
-  <script>
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-        x.className = "topnav";
-      }
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
     }
-    </script>
+  }
+  </script>
+<!-- navbar end -->
 
 
 
-  <script src="script.js"></script>
-</body>
+
+<!-- kanban start -->
+
+<!-- modal -->
+<div class="modal" id="todo_form">
+  <div class="header">
+    <div class="title">Add Todo</div>
+    <button class="btn close-modal">&times;</button>
+  </div>
+  <div class="body">
+    <input type="text" id="todo_input" />
+    <input type="submit" value="Add Todo" id="todo_submit" />
+  </div>
+</div>
+<!-- todo -->
+<div class="todo-container">
+  <div class="status" id="no_status">
+    <h1>Tasks</h1>
+    <button id="add_btn" data-target-modal="#todo_form">+ Add Task</button>
+    <div class="todo" draggable="true">
+      Drink water!
+      <span class="close">&times;</span>
+    </div>
+  </div>
+  <div class="status">
+    <h1>Not Started</h1>
+  </div>
+  <div class="status">
+    <h1>In Progress</h1>
+  </div>
+  <div class="status">
+    <h1>Completed</h1>
+  </div>
+</div>
+
+<div id="overlay"></div>
+<!-- kanban end -->
+
+<script src="script.js"></script>
 
 </html>

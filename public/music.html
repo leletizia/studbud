@@ -10,11 +10,40 @@
 </head>  
 <body>
 
-    <audio src="bensound-inspire.mp3" id="audio/mpeg"></audio>
+<!-- nav bar -->
+<div class="topnav" id="myTopnav">
+    <a class="logo" href="index.html">
+      <img alt="stud bud logo" src="stud.bud.png" width="150" height="40">
+    <a href="stopwatch.html">Stopwatch</a>
+    <a href="dictionary.html">Dictionary</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  
+  <div style="padding-left:16px"> 
+  </div>
+  
+  
+    </script>
+  
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+  <!-- Nav bar end -->
+
+    <audio src="audio/OSD.mp3" type="audio/mpeg"></audio>
 
     <div class="music-player">
-        <h1 class="music-name">Song One</h1>
-        <p class="artist-name">Artist One</p>
+        <h1 class="music-name">One Summer's Day - Lofi</h1>
+        <p class="artist-name">Samuel Kim & Mik</p>
 
         <div class="disk"></div>
 
@@ -25,12 +54,12 @@
         </div>
 
         <div class="controls">
-            <button class="btn backwards-btn"><img src="images/Connect and Company LOGO.png" alt=""></button>
+            <button class="btn backwards-btn"><img src="pre.png" alt=""></button>
             <button class="play-btn pause">
                 <span></span>
                 <span></span>
             </button>    
-            <button class="btn forward-btn"><img src="images/Connect and Company LOGO.png" alt=""></button>
+            <button class="btn forward-btn"><img src="nxt.png" alt=""></button>
 
         </div>
 

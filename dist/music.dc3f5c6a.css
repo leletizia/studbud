@@ -1,0 +1,257 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+.topnav {
+  background-color: #f6f2df;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #003049;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+  text-decoration: none;
+  display: block;
+}
+
+.topnav a:hover {
+  color: #003049;
+  background-color: #ddd;
+}
+
+.topnav a.active {
+  color: #fff;
+  background-color: #04aa6d;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    text-align: left;
+    display: block;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: #5f7a61;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif, Times New Roman, Times, serif;
+  display: flex;
+}
+
+.music-player {
+  width: 350px;
+  height: 550px;
+  background: rgba(255, 255, 255, 0, .08);
+  color: #d5eebb;
+  border-radius: 20px;
+  padding: 30px;
+  overflow: hidden;
+  box-shadow: 0 40px 100px #ffffff1a;
+}
+
+.music-name, .artist-name {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.music-name {
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.artist-name {
+  font-size: 20px;
+}
+
+.disk {
+  width: 180px;
+  height: 180px;
+  box-shadow: 0 0 0 10px rgba(255, 255, 255, 0, .08);
+  background: #000 url("sky.317cc336.jpg") 0 0 / cover;
+  border-radius: 50%;
+  margin: 40px auto;
+  animation: rotate 20s linear infinite paused;
+  display: block;
+  position: relative;
+}
+
+.disk.play {
+  animation-play-state: running;
+}
+
+.disk:before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background: #5f7a61;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.song-slider {
+  width: 100%;
+  position: relative;
+}
+
+.seek-bar {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  background: #7fc8a9;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.seek-bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 1px;
+  height: 20px;
+  background: #000;
+  box-shadow: -400px 0 0 400px #d5eebb;
+}
+
+.current-time, .song-duration {
+  font-size: 14px;
+}
+
+.song-duration {
+  position: absolute;
+  right: 0;
+}
+
+.controls {
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto auto;
+  display: flex;
+}
+
+.play-btn {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  background: #d5eebb;
+  border: none;
+  border-radius: 50%;
+  position: relative;
+}
+
+.play-btn span {
+  width: 10px;
+  height: 30px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  background: #5f7a61;
+  border-radius: 2px;
+  transition: all .5s;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%);
+}
+
+.play-btn span:nth-child(2) {
+  transform-origin: center;
+  left: 55%;
+}
+
+.play-btn.pause span:nth-child(2) {
+  transform: translateY(-50%)scaleY(0);
+}
+
+.play-btn.pause span:nth-child(1) {
+  width: 35%;
+  clip-path: polygon(0 0, 100% 50%, 100% 50%, 0 100%);
+  border-radius: 0;
+  left: 53%;
+  transform: translate(-50%, -50%);
+}
+
+.play-btn.pause {
+  animation: pulse 2s linear infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0;
+  }
+
+  50% {
+    box-shadow: 0 0 0 5px #ffffff1a;
+  }
+
+  100% {
+    box-shadow: 0 0 0 5px #fff6;
+  }
+}
+
+.btn {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background: #d5eebb;
+  border: none;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=music.dc3f5c6a.css.map */

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Timer With 🔔| abhik B</title>
+  <link rel="stylesheet" href="pomodoro.css" />
+</head>
+
+<body>
+  
+  <!-- nav bar -->
+<div class="topnav" id="myTopnav">
+  <a class="logo" href="index.html">
+    <img alt="stud bud logo" src="stud.bud.png" width="150" height="40">
+  <a href="stopwatch.html">Stopwatch</a>
+  <a href="dictionary.html">Dictionary</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:16px"> 
+</div>
+
+
+  </script>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+<!-- Nav bar end -->
+  
+  
+  
+  <div id="wrapper-main">
+    <h1>Pomodro ⏲ with 🛎</h1>
+
+    <figure class="clock">
+      <div class="mins">0</div>
+      <div>:</div>
+      <div class="secs">00</div>
+      <audio src="http://soundbible.com/mp3/service-bell_daniel_simion.mp3"></audio>
+      <svg class="progress-ring">
+        <circle class="progress-ring__circle" stroke-width="8" fill="transparent" r="110" cx="120" cy="120" />
+      </svg>
+      <svg class="static-ring">
+        <circle class="static-ring__circle" stroke-width="8" fill="transparent" r="110" cx="120" cy="120" />
+      </svg>
+      <p class="session">🤓 Focus</p>
+      <button class="start">&nbsp;</button>
+      <button class="reset"><i>⟲</i> Reset</button>
+      <button class="pause">&nbsp;</button>
+    </figure>
+
+    <form action=".">
+      <label for="focusTime">Focus Time</label>
+      <input type="number" value="1" id="focusTime" />
+      <label for="breakTime">Break Time</label>
+      <input type="number" value="1" id="breakTime" />
+      <button type="submit">Save settings</button> 
+      <p>🛈 Settings apply for next Session.</p>
+    </form>
+
+    <script src="pomodoro-settings.js"></script>
+    <script src="pomodoro-timer.js"></script>
+    <script src="pomodoro-progress.js"></script>
+  </div>
+  <footer>
+    Base code by <a href="https://www.youtube.com/channel/UC74BFCI_FbThOjUqx6gmccg" target="_blank">abhik-b</a>.
+    Mod by <a href="https://github.com/tobealive" target="_blank">tobealive</a>.
+  </footer>
+</body>
+
+</html>
