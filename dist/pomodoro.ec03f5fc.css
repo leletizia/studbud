@@ -7,11 +7,12 @@ body {
   margin: 0;
   padding: 0;
   font-family: Quicksand, Helvetica, sans-serif;
-  position: relative;
 }
 
 .topnav {
   background-color: #f6f2df;
+  position: fixed;
+  top: 0;
   overflow: hidden;
 }
 
@@ -27,7 +28,7 @@ body {
 
 .topnav a:hover {
   color: #003049;
-  background-color: #ddd;
+  background-color: #eae2b7;
 }
 
 .topnav a.active {
@@ -81,7 +82,7 @@ body {
 body {
   color: #003049;
   background-color: #f6f2df;
-  padding: 35px;
+  padding: 30px;
   font-family: Quicksand, sans-serif;
 }
 
@@ -90,7 +91,7 @@ body {
   background-color: #eae2b7;
   border-radius: 10px;
   margin: 20px auto 50px;
-  padding: 45px 60px;
+  padding: 45px 50px;
   box-shadow: 0 4px 8px #00001d0d;
 }
 
@@ -102,7 +103,7 @@ h1 {
 }
 
 input {
-  color: #eee;
+  color: #003049;
   background: #0000001c;
   border: none;
   margin: 10px 0;
@@ -121,7 +122,7 @@ input {
 
 button {
   width: 100%;
-  color: #eee;
+  color: #003049;
   background: none;
   border: none;
   border-radius: 4px;
@@ -229,7 +230,7 @@ button i {
 
 .progress-ring__circle {
   transform-origin: 50%;
-  stroke: #fd8f11;
+  stroke: #f77f00;
   z-index: 2;
   transition: all;
   transform: rotate(-90deg);
@@ -242,15 +243,11 @@ button i {
 footer {
   text-align: center;
   width: 80%;
-  color: #ffffff73;
+  color: #003049;
   margin: 0 auto;
   font-size: 14px;
   position: fixed;
   bottom: 4px;
-}
-
-footer a {
-  color: #ffffff73;
 }
 
 .danger {

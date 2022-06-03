@@ -2,11 +2,13 @@ const todos = document.querySelectorAll(".todo");
 const all_status = document.querySelectorAll(".status");
 let draggableTodo = null;
 
+// tells teh js that all the .todo tasks are draggeable
 todos.forEach((todo) => {
   todo.addEventListener("dragstart", dragStart);
   todo.addEventListener("dragend", dragEnd);
 });
 
+// starts teh dragging of task between columns
 function dragStart() {
   draggableTodo = this;
   setTimeout(() => {
@@ -15,6 +17,7 @@ function dragStart() {
   console.log("dragStart");
 }
 
+// ends teh dragging of task between columns
 function dragEnd() {
   draggableTodo = null;
   setTimeout(() => {
@@ -23,6 +26,7 @@ function dragEnd() {
   console.log("dragEnd");
 }
 
+// these are the different "drag" states that each draggeable element can have when moving between the columns
 all_status.forEach((status) => {
   status.addEventListener("dragover", dragOver);
   status.addEventListener("dragenter", dragEnter);
@@ -30,32 +34,36 @@ all_status.forEach((status) => {
   status.addEventListener("drop", dragDrop);
 });
 
+// when drag target goes over the column it can be dropped into
 function dragOver(e) {
   e.preventDefault();
-  //   console.log("dragOver");
 }
 
+// when drag target enters teh column it can be dropped into
 function dragEnter() {
   this.style.border = "1px dashed #ccc";
   console.log("dragEnter");
 }
 
+// when drag target leaves teh column it can be dropped into
 function dragLeave() {
   this.style.border = "none";
   console.log("dragLeave");
 }
 
+// when drag target is dropped into a column
 function dragDrop() {
   this.style.border = "none";
   this.appendChild(draggableTodo);
   console.log("dropped");
 }
 
-/* modal */
+/* modal - popup when creating new task*/
 const btns = document.querySelectorAll("[data-target-modal]");
 const close_modals = document.querySelectorAll(".close-modal");
 const overlay = document.getElementById("overlay");
 
+// listens for when the modal is clicked
 btns.forEach((btn) => {
   btn.addEventListener("click", () => {
     document.querySelector(btn.dataset.targetModal).classList.add("active");
@@ -63,6 +71,7 @@ btns.forEach((btn) => {
   });
 });
 
+// listens for the click to remove items
 close_modals.forEach((btn) => {
   btn.addEventListener("click", () => {
     const modal = btn.closest(".modal");
@@ -71,6 +80,7 @@ close_modals.forEach((btn) => {
   });
 });
 
+// checks if user is clicking on the overlay, if ti is, then itll open the pop up
 window.onclick = (event) => {
   if (event.target == overlay) {
     const modals = document.querySelectorAll(".modal");
@@ -106,7 +116,6 @@ function createTodo() {
   span.addEventListener("click", () => {
     span.parentElement.style.display = "none";
   });
-  //   console.log(todo_div);
 
   todo_div.addEventListener("dragstart", dragStart);
   todo_div.addEventListener("dragend", dragEnd);

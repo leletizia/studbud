@@ -2,11 +2,12 @@
 body {
   margin: 0;
   font-family: Quicksand, sans-serif;
-  position: absolute;
 }
 
 .topnav {
   background-color: #f6f2df;
+  position: fixed;
+  top: 0;
   overflow: hidden;
 }
 
@@ -22,7 +23,7 @@ body {
 
 .topnav a:hover {
   color: #003049;
-  background-color: #ddd;
+  background-color: #eae2b7;
 }
 
 .topnav a.active {
@@ -67,7 +68,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Quicksand, sans-serif;
 }
 
 body {
@@ -113,9 +114,9 @@ body {
 .form .input button {
   width: 30%;
   height: 30px;
-  color: #fff;
+  color: #003049;
   cursor: pointer;
-  background: #c98a8a;
+  background: #f77f00;
   border: none;
   border-radius: 4px;
   font-size: 14px;
@@ -123,7 +124,8 @@ body {
 }
 
 .form .input button:hover {
-  background: green;
+  color: #f77f00;
+  background: #003049;
 }
 
 .content .data-section {

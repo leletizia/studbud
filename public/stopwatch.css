@@ -64,6 +64,7 @@ body {
 
 
 :root {
+  /* setting the main colours */
     --primary: #F77F00;
     --dark:#F6F2DF;
     --darker: #EAE2B7;
@@ -73,7 +74,7 @@ body {
   * {
     box-sizing: border-box;
     margin: 0;
-    font-family: 'Fira sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
   }
   
   body {
@@ -91,6 +92,7 @@ body {
     border-radius: 1rem;
   }
   
+  /* colour and sizing of time displayed */
   .time {
     font-size: 5rem;
     font-weight: 300;
@@ -103,6 +105,7 @@ body {
     justify-content: center;
   }
   
+  /* colour and sizing of buttons */
   .controls button {
     appearance: none;
     background: none;

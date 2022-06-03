@@ -1,7 +1,7 @@
 let songs = [
     {
         name: 'One Summer Day',
-        path: 'OSD.mp3',
+        path: 'audio/OSD.mp3',
         artist: 'Samuel Kim & Mik',
         cover: 'sky.jpg'
     },

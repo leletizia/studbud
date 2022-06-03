@@ -6,12 +6,13 @@
 body {
     margin: 0;
     font-family: 'Quicksand', sans-serif;    
-    position: absolute;
   }
   
   .topnav {
     overflow: hidden;
     background-color: #F6F2DF;
+    position: fixed;
+    top: 0;
   }
   
   .topnav a {
@@ -25,7 +26,7 @@ body {
   }
   
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #EAE2B7;
     color: #003049;
   }
   
@@ -66,7 +67,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 body {
     display: flex;
@@ -108,15 +109,16 @@ body {
     width: 30%;
     height: 30px;
     font-size: 14px;
-    background: rgba(201, 138, 138);
-    color: #fff;
+    background: #F77F00;
+    color: #003049;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     transition: 400ms ease;
 }
 .form .input button:hover {
-    background: green;
+    background: #003049;
+    color: #F77F00;
 }
 
 .content .data-section {
