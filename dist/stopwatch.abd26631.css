@@ -2,11 +2,12 @@
 body {
   margin: 0;
   font-family: Quicksand, sans-serif;
-  position: relative;
 }
 
 .topnav {
   background-color: #f6f2df;
+  position: fixed;
+  top: 0;
   overflow: hidden;
 }
 
@@ -23,11 +24,6 @@ body {
 .topnav a:hover {
   color: #003049;
   background-color: #eae2b7;
-}
-
-.topnav a.active {
-  color: #fff;
-  background-color: #04aa6d;
 }
 
 .topnav .icon {
@@ -77,8 +73,8 @@ body {
 }
 
 body {
-  background: var(--dark);
   color: var(--light);
+  background: #f6f2df;
 }
 
 .watch {

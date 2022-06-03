@@ -6,12 +6,15 @@
 body {
   margin: 0;
   font-family: 'Quicksand', sans-serif;
-  position: relative;
+  /* position: relative; */
 }
 
 .topnav {
   overflow: hidden;
   background-color: #F6F2DF;
+  position: fixed;
+  top: 0;
+
 }
 
 .topnav a {
@@ -27,11 +30,6 @@ body {
 .topnav a:hover {
   background-color: #EAE2B7;
   color: #003049;
-}
-
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
 }
 
 .topnav .icon {
@@ -78,7 +76,7 @@ body {
   }
   
   body {
-    background: var(--dark);
+    background: #F6F2DF;
     color: var(--light);
   }
   

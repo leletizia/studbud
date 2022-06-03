@@ -149,6 +149,7 @@ form {
 form button {
   width: 100%;
   color: #003049;
+  cursor: pointer;
   background: none;
   border: 1px solid #fac7c72a;
   margin: 5px 0;
@@ -181,6 +182,7 @@ button i {
 
 .reset {
   z-index: 2;
+  cursor: pointer;
   margin: 0;
   padding: 0;
   font-size: 14px;

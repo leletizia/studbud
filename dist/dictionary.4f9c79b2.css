@@ -73,6 +73,7 @@ body {
 
 body {
   min-height: 100vh;
+  background: #f6f2df;
   justify-content: center;
   align-items: center;
   display: flex;
